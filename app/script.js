@@ -18,7 +18,7 @@ class girlGenerator {
         const src = 'https://api.unsplash.com'
         const topic = `/search/photos?page=${this.pageNumber}&query=hot girl`
         const url = src + topic + '&client_id=' + key
-        const response = await fetch(url)
+        // const response = await fetch(url)
         const data = await response.json()
         this.data = data
         return this.showImg()
@@ -42,6 +42,7 @@ btn.addEventListener('click', () => {
         girl1.imgNumber += 1
         girl1.showImg()
     } else {
+        // go to another page by reloading it
         location.reload();
     }
 })
