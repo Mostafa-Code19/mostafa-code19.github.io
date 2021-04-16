@@ -1,0 +1,24 @@
+{
+  "name": "girl-founder-for-owl",
+  "version": "1.0.0",
+  "description": "grab image from unsplash and show it to my friend to decide which girl is perfect\r YUP",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mostafa-Code19/Girl-Founder-For-OWL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mostafa-Code19/Girl-Founder-For-OWL/issues"
+  },
+  "homepage": "https://github.com/Mostafa-Code19/Girl-Founder-For-OWL#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
